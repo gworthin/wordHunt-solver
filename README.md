@@ -12,3 +12,7 @@ WordHunt is a GamePigeon game played on a board of 16 letters. The player must c
 This program takes a string of 16 letters representing the board as input and prints a list of all words that can be played.
 
 Boards are represented as strings going left-right and top-down. For example, the above board would be represented with the string *VCWKOLHWEVFDOTET*
+
+The program would then print a list of all 56 words that could be played, the longest of which being "coveted" on this board.
+
+The Board class represents a board with an agecency matrix and has methods to check if a word can be played on it. The WordHunt class handles user input and checks to see if each word in the English language, (found in collinsToLowercase.txt) can be played on the board.
