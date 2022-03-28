@@ -24,7 +24,8 @@ public class WordHunt {
 			System.out.println("Enter the 16 letters:");
 			letters = reader.next();
 		}
-		
+		letters = letters.toLowerCase();
+
 		// Creates an array out of the string of letters
 		ArrayList<String> lettersArr = new ArrayList<String>();
 		for(int i = 0; i < 16; i++) {
